@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parent {
+    height: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.background {
+    width: 100%;
+    height: 4036px;
+    background: rgba(45,53,59,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 146px;
+    top: 9px;
+    font-family: Jersey 25;
+    font-size: 96px;
+    flex-direction: row;
+    gap: 0;
+    color: #ffffff;
+}
+
+.bar{
+    margin: auto;
+    width: 100%;  
+    border-top: solid #ffffff 3px;
+    border-bottom: solid #ffffff 3px;
+    height: 68px;
+    text-align: center;
+    font-family: Jersey 25;
+    font-size: 32px;
+    flex-direction: row;
+    align-items:center;
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.menuItemSelected{
+  width: 330px;
+  height: 55px;
+  background: rgba(35,42,46,1);
+  opacity: 1;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  overflow: hidden;
+
+  font-size: 32;
+  color: #ffffff;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.menuItem{
+  width: 330px;
+  height: 55px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  overflow: hidden;
+
+  font-size: 32;
+  color: #ffffff;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
