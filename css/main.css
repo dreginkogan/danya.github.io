@@ -81,6 +81,10 @@ body {
   font-weight: 400;
   font-style: normal;
 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
 }
 
 .menuItem{
@@ -98,4 +102,89 @@ body {
   font-weight: 400;
   font-style: normal;
 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
 }
+
+.item{
+  width: 100%;
+  padding-top: 50px;
+
+  display: flex;
+
+}
+
+.imageSquare{
+  width: 564px;
+  height: 564px;
+  position: relative;
+  padding-right: 16px;
+}
+
+.greenSquare{
+  width: 531px;
+  height: 531px;
+  background: rgba(68,90,60,1);
+  opacity: 1;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+  overflow: hidden;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.shadowSquare{
+  width: 531px;
+  height: 531px;
+  background: rgba(35,42,46,1);
+  opacity: 1;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+  overflow: hidden;
+
+  position: absolute;
+  top: 33px;
+  left: 33px;
+}
+
+.projectWords{
+  flex: 1;
+  box-sizing: border-box;
+  height: 564px;
+  overflow: hidden;
+}
+
+.projectTitle{
+  width: 100%;
+
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color:#ffffff;
+  text-align: center;
+}
+
+.projectDescription{
+  width: 100%;
+
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color:#ffffff;
+  text-align: left;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
