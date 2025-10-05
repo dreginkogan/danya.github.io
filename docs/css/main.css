@@ -198,3 +198,46 @@ body {
   border-bottom-left-radius: 31px;
   border-bottom-right-radius: 31px;
 }
+
+.photoGreenSquare{
+  width: 1550px;
+  height: 1052px;
+  background: rgba(68,90,60,1);
+  opacity: 1;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+  overflow: hidden;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;
+}
+
+.photoShadowSquare{
+  width: 1550px;
+  height: 1052px;
+  background: rgba(35,42,46,1);
+  opacity: 1;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+  overflow: hidden;
+
+  position: absolute;
+  top: 33px;
+  left: 33px;
+}
+
+.photoImageSquare{
+  width: 1550px;
+  height: 1052px;
+  position: relative;
+  padding-right: 16px;
+}
