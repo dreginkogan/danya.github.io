@@ -137,6 +137,10 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
+
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;
 }
 
 .shadowSquare{
@@ -188,3 +192,9 @@ body {
 
 }
 
+.imageRoundCorners{
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+  border-bottom-left-radius: 31px;
+  border-bottom-right-radius: 31px;
+}
